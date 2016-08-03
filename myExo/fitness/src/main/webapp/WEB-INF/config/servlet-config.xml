@@ -11,6 +11,8 @@
 	<mvc:annotation-driven/>
 	<context:component-scan base-package="com.gbz.controller"/>
 
+<!-- static ressources -->
+	<mvc:resources location="pdfs" mapping="/pdfs/**"/>
 
 <!-- 2 façons de configurer la repartition des jsp. 1er : "a l'ancienne", 2ème : plus réduite -->
 	<!-- 

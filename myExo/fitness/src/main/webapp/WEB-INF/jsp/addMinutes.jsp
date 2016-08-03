@@ -10,7 +10,7 @@
 <body>
 
 <h1>Ajouter des minutes</h1>
-
+<!-- commandName : bind au  @ModelAttribute -->
 <form:form commandName="exercise">
 	<table>
 		<tr>
